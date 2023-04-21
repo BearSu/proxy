@@ -37,6 +37,7 @@ let interval;
         proxy = httpProxy.createProxyServer();
         proxyServer = http.createServer(proxyTo);
         proxyServer.listen(listenPort, onListen);
+        console.log(proxyServer.address());
       }
     )
   }
