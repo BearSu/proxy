@@ -1,6 +1,17 @@
 {
-	"dependencies": {
-		"http-proxy": "^1.18.1",
-		"node-fetch": "^2.6.9"
-	}
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "node-fetch": "^2.6.9"
+  },
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
